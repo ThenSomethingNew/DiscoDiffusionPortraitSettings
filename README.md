@@ -11,8 +11,11 @@ A collection of settings, tips, tricks, and resources for creating artistic port
 Getting Started with Disco Stream (assumes general knowledge of Disco Diffusion) 
 [here](#disco-stream-getting-started)
 
-Example Portrait Settings 
-[here](#example-portrait-settings)
+Portrait Settings Tips & Tricks
+[here](#portrait-settings-tips)
+
+Portrait Settings Links 
+[here](#portrait-settings-links)
 
 Helpful Links 
 [here](#helpful-links)
@@ -24,7 +27,13 @@ Contact [Join our Discord](https://discord.gg/HNDPwD9T)
 
 # Disco Stream Getting Started
 
-# Example Portrait Settings
+# Portrait Settings Tips
+
+# Portrait Settings Links
+Then SomethingNew
+[@then_somethingAI](https://www.instagram.com/then_somethingai/) on Instagram
+Creative Portraits
+
 
 # Helpful Links
 
