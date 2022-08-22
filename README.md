@@ -56,6 +56,8 @@ These settings deviate from the initial recommendations from @Felipe3DArtist to 
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/45181586/186011557-44c73a53-9dec-419c-a99d-f8d19b1f5b4e.png">
 
+**Batch Name** typically change the date for each day of play, if you look in the example settings folder you can easily match the example image with the settings file [example settings here](DiscoStreamSettings/ThenSomethingNewExamples/)
+
 **Width / Height** recommended for tall posts on instagram (the recommended dimensions against the initial model of 512x512 will produce more stable results)
 
 **Clip Guidance Scale** Play around and experiment high numbers (20-30k) produce more creative resultes, (8k-15k) is a good mid range, (less than 5k) produce more photorealism
