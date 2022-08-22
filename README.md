@@ -112,8 +112,16 @@ It helps to use the same word in singular and plural (mirror, mirrors...)
 ```
 
 # Portrait Settings Links
-Then_SomethingNew Examples [here](DiscoStreamSettings/ThenSomethingNewExamples/)
+**Settings Files Uploaded by Artist**
+
+Then_SomethingNew [DiscoStream Examples](DiscoStreamSettings/ThenSomethingNewExamples/)
+
+Then_SomethingNew [Older Examples](oldSettings/) *uses custom model, cannont import directly into Disco Stream*
 
 # Helpful Links
 
 # Disco Diffusion Getting Started
+If you are new to the AI generated art world or if are coming from another tool like StableDiffusion, DALE-2, or Midjourney, it is recommended to get started with Disco Diffusion via this [guide](https://sweet-hall-e72.notion.site/A-Traveler-s-Guide-to-the-Latent-Space-85efba7e5e6a40e5bd3cae980f30235f)
+
+
+Disco Diffusion is unlike many other AI image generators in that it is free to modify and run on Google Colab servers, but you will need some knowledge of how to modify settings to get the result you specifically want. 
