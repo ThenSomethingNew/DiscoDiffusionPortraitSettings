@@ -71,6 +71,8 @@ This is where the majority of the work comes into play asside from settings and 
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/45181586/186012599-9c50b70e-a555-4080-8788-f63b9fe79f79.png">
 
+<img width="381" alt="image" src="https://user-images.githubusercontent.com/45181586/186016520-03aed488-01ee-44e6-8728-97af0d36b242.png">
+
 **Cut_overview** Starts big and goes down to 0. This structures the overall composition of your image before tapering off. 
 
 **Cut_innercut** Starts at nothing and increases in the middle before tapering off again. Play with options to give it a few innercuts at the beginning for more detail later in the image or try something completely different
