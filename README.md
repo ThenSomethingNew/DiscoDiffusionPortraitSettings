@@ -30,10 +30,7 @@ Contact [Join our Discord](https://discord.gg/HNDPwD9T)
 # Portrait Settings Tips
 
 # Portrait Settings Links
-Then SomethingNew
-[@then_somethingAI](https://www.instagram.com/then_somethingai/) on Instagram
-Creative Portraits
-
+Then_SomethingNew Examples [here](DiscoStreamSettings/ThenSomethingNewExamples/README.md)
 
 # Helpful Links
 
