@@ -1,20 +1,22 @@
 {
     "text_prompts": {
         "0": [
-            " a  pastel painting of a woman with a light above her head, a character portrait by Charlie Bowater, cgsociety, fantasy art, detailed painting, enchanting, pre-raphaelite:3",
+            "a bright illuminated painting of a woman with purple hair breaking through reflective mirrors, a character portrait by Charlie Bowater and Chris Rallis, featured on deviantart, fantasy art, daz3d, digital painting, digital illustration:3",
             "portrait, center framing, soft focus, cinematic lighting, vertical portrait, f2, 85mm, f1.8, film grain:.75",
-            "soft skin, smooth skin, sensual smile, attractive, natural makeup, small nose, long beautiful hair, flowing hair, colorful hair:.5",
-            "beautiful woman, by Eric Wallis, by Charlie Bowater, by Daniela Uhlig, by Wlop, by Gil Elvgren, by Rebeca Saray, by Bayard Wu:.25",
+            "soft skin, smooth skin, sensual smile, attractive, natural makeup, small nose, long beautiful hair:.5",
+            "holography, anamorphic lens flare, luminescence, holographic, mirrors, mirror, broken mirror, broken glass, shattered mirror, mirrors:.5",
+            "by Eric Wallis, by Charlie Bowater, by Daniela Uhlig, by Wlop, by Gil Elvgren, by Rebeca Saray, by Bayard Wu:.25",
             "glasses, signature, freckles, blemish, watermark, wrinkles, jpeg artifacts:-1"
-        ]
+        ],
+       
     },
     "image_prompts": {},
-    "clip_guidance_scale": 3000,
+    "clip_guidance_scale": 20000,
     "tv_scale": 50000,
     "range_scale": 50000,
     "sat_scale": 50000,
     "cutn_batches": 4,
-    "max_frames": 220,
+    "max_frames": 150,
     "interp_spline": "Linear",
     "init_image": "None",
     "init_scale": 1,
@@ -28,7 +30,7 @@
     "clip_denoised": false,
     "clamp_grad": true,
     "clamp_max": 0.1,
-    "seed": 3663784630,
+    "seed": 4021514017,
     "fuzzy_prompt": false,
     "rand_mag": 0.05,
     "eta": 0.9,
