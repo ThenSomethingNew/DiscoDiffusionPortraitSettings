@@ -30,7 +30,7 @@ Contact [Join our Discord](https://discord.gg/HNDPwD9T)
 # Portrait Settings Tips
 
 # Portrait Settings Links
-Then_SomethingNew Examples [here](DiscoStreamSettings/ThenSomethingNewExamples/README.md)
+Then_SomethingNew Examples [here](DiscoStreamSettings/ThenSomethingNewExamples/)
 
 # Helpful Links
 
