@@ -115,6 +115,7 @@ It helps to use the same word in singular and plural (mirror, mirrors...)
 **Settings Files Uploaded by Artist**
 ## Then_SomethingNew
 Instagram [@then_somethingAI](https://www.instagram.com/then_somethingai/) 
+
 [DiscoStream Examples](DiscoStreamSettings/ThenSomethingNewExamples/)
 
 [Older Examples](oldSettings/) *uses custom model, cannont import directly into DiscoStream*
