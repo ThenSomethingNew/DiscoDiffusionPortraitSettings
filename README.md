@@ -52,7 +52,30 @@ It is currently recommended to utilize portrait_generator_v002
 ## Settings Recommendations
 These settings deviate from the initial recommendations from @Felipe3DArtist to create more wild and creative results using a higher clamp and step count to attempt to find a sweet spot between referencing the initial dataset and coming up with something new. 
 
+## Initial Settings
+
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/45181586/186011557-44c73a53-9dec-419c-a99d-f8d19b1f5b4e.png">
+
+**Width / Height** recommended for tall posts on instagram (the recommended dimensions against the initial model of 512x512 will produce more stable results)
+
+**Clip Guidance Scale** Play around and experiment high numbers (20-30k) produce more creative resultes, (8k-15k) is a good mid range, (less than 5k) produce more photorealism
+
+**TV,RANGE,SAT Scale** More creative and saturated results the higher you go, reduce these to get more photo realism
+
+**Cutn Batches** 4 is a good sweet spot for more creative results, if you are running on a T4 consider reducing this to 1 to save on memory
+
+## Cut Scheduling
+This is where the majority of the work comes into play asside from settings and prompts. Play with these, have a laugh see what works out for you. However, this can be a good starting point.
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/45181586/186012599-9c50b70e-a555-4080-8788-f63b9fe79f79.png">
+
+**Cut_overview** Starts big and goes down to 0. This structures the overall composition of your image before tapering off. 
+
+**Cut_innercut** Starts at nothing and increases in the middle before tapering off again. Play with options to give it a few innercuts at the beginning for more detail later in the image or try something completely different
+
+**Cut_ic_pow** Still a WIP and playing around, but current strategy has a higher power at the beginning to form initial shapes, tapers down to add in detail, ramps up for detail, and turns down again at the end so the overall image doesn't get to grainy
+
+**Cut_icgray** Starts small and tapers off so the initial diffuse steps focus on geometry
 
 
 ## Prompt Writing Recommendations
