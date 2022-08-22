@@ -28,37 +28,54 @@ Contact [Join our Discord](https://discord.gg/HNDPwD9T)
 # Disco Stream Getting Started
 It is highly recommended to utilize the DiscoStream fork of DiscoDiffusion [@WAS](https://github.com/WASasquatch) has done a great job of integrating custom features to help facilitate using new and experimental models (including using the Portrait Model)
 
+*this guide assumes a basic understanding of using DiscoDiffusion in Google Colab*
+
 DiscoStream v1.1 in Google Colab [here](https://colab.research.google.com/github/WASasquatch/discostream/blob/dev/DiscoStream.ipynb) 
 
 DiscoStream GitHub Repo Link [here](https://github.com/WASasquatch/discostream)
 
 # Portrait Settings Tips
-This is a collection of various suggestions for using the Portrait model. 
+This is a collection of various suggestions for using the Portrait model. This section uses this image as an example to what settings were modified to create the following result. *these settings are based on a V100 allocation in Google Colab and may run out of memory on a free T4*
 
-## Portrait Model Recommendation
+<img width="282" alt="image" src="https://user-images.githubusercontent.com/45181586/186010433-a30a7e75-39f4-4597-8d90-1feb7ade76d3.png">
+
+## Clip Models
+These are the current recommended clip models to use for Portrait images
+
+<img width="189" alt="image" src="https://user-images.githubusercontent.com/45181586/186011333-3649bdd1-3e58-45af-bf76-71c2415a992d.png">
+
+## Portrait Model Recommendations 
 It is currently recommended to utilize portrait_generator_v002
 
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/45181586/186006896-614402f4-120e-4267-9139-ca8e4852a658.png">
 
+## Settings Recommendations
+These settings deviate from the initial recommendations from @Felipe3DArtist to create more wild and creative results using a higher clamp and step count to attempt to find a sweet spot between referencing the initial dataset and coming up with something new. 
+
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/45181586/186011557-44c73a53-9dec-419c-a99d-f8d19b1f5b4e.png">
+
+
 ## Prompt Writing Recommendations
 
-### Then_SomethingNew Recommendations
-I typically recommend structuring prompts the following way with various weights.
+**Remember the Prompt isn't everything**
+In fact it's just a part of your overall settings. However, good results have been found with the portrait model by breaking up and grouping similar image prompt information together rather than one long sentence. 
 
-
+*things to note*
+The sum of the prompt weights > 1
+It helps to use the same word in singular and plural (mirror, mirrors...)
 
 ```
 #General
-"a colorful character portrait of a happy ahego kawaii woman wearing cosplay infront of pastel lights,  an anime character portrait by Charlie Bowater and Chris Rallis, featured on deviantart, fantasy art, daz3d, digital painting, digital illustration:3",
+"a bright illuminated painting of a woman with purple hair breaking through reflective mirrors, a character portrait by Charlie Bowater and Chris Rallis, featured on deviantart, fantasy art, daz3d, digital painting, digital illustration:3",
 
 #Photography settings
 "portrait, center framing, soft focus, cinematic lighting, vertical portrait, f2, 85mm, f1.8, film grain:.75",
 
 #Human Traits
-"soft skin, smooth skin, sensual smile, attractive, natural makeup, small nose, kawaii, kawaii woman, cosplay:.5",
+"soft skin, smooth skin, sensual smile, attractive, natural makeup, small nose, long beautiful hair:.5",
 
 #Other Traits
-"holography, anamorphic lens flare, luminescence, holographic, cinematic lighting, cosplay, anime:.5",
+"holography, anamorphic lens flare, luminescence, holographic, mirrors, mirror, broken mirror, broken glass, shattered mirror, mirrors:.5",
 
 #Additional Artist References
 "by Eric Wallis, by Charlie Bowater, by Daniela Uhlig, by Wlop, by Gil Elvgren, by Rebeca Saray, by Bayard Wu:.25",
